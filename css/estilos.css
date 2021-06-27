@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+body {
+    background: #fff;
+    font-family: "Open Sans";
+    font-size: 16px; 
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden; 
+}
+
+/*---------------HEADER ----------------*/
+header .contenedor{
+    width: 100%;
+	padding: 20px 0;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+}
+
+header .contenedor .nav a {
+    color: #000;
+    font-size: 1em;
+    margin: 40px 10px;
+    padding-bottom: 9px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+header .contenedor .nav a:hover {
+    border-bottom: 2px solid #000; 
+}
+
+/*-------------------NOSOTROSSSS-----------------*/
+
+.main .nosotros .contenedor {
+    width: 100%;
+	padding: 20px 0;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.main .nosotros .contenedor .logo {
+    width: 50%;
+}
+
+.main .nosotros .contenedor .logo img {
+    border-radius: 200px;
+}
+
+.main .nosotros .contenedor .texto {
+    width: 50%;
+    padding: 10px;
+    /*font-weight: 300;*/
+}
+
+.main .nosotros .contenedor .texto .titulo h1,
+.main .nosotros .contenedor .texto .titulo h2{
+    color: #000;
+    font-weight: 300;
+    margin: 0;
+}
+
+.main .nosotros .contenedor .texto .titulo .nombre{
+    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 50px;
+} 
+
+.main .nosotros .contenedor .texto .titulo .giro{
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 25px;
+} 
+
+.main .nosotros .contenedor .texto .descripcion h3,
+.main .nosotros .contenedor .texto .descripcion p{
+    color: #000;
+    font-weight: 300;
+    margin: 0;
+}
+
+.main .nosotros .contenedor .texto .descripcion .quienes-somos {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.main .nosotros .contenedor .texto .descripcion .quienes-somos .parrafo {
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 50px;
+}
+/*Donde se transmite*/
+.main .transmision {
+    background: #000
+}
+.main .transmision .contenedor {
+    text-align: center;
+}
+
+.main .transmision .contenedor .titulo{
+    font-size: 50px;
+    margin: 40px;
+    line-height: 34px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+}
+
+.main .transmision .contenedor .contenedor-plataformas .redes-sociales .texto h3{
+    font-size: 35px;
+}
+
+.main .transmision .contenedor .contenedor-plataformas .redes-sociales .iconos {
+    margin-bottom: 60px;
+}
+
+.main .transmision .contenedor .contenedor-plataformas .redes-sociales .iconos img {
+    vertical-align: top;
+	width: 50px;
+	margin: 10px;
+}
+
+.main .transmision .contenedor .contenedor-plataformas .redes-sociales .iconos img:hover {
+    opacity: 0.5;
+}
+/*Videoconferencias */
+.main .transmision .contenedor .contenedor-plataformas .videoconferencias .iconos {
+    margin-bottom: 60px;
+}
+
+.main .transmision .contenedor .contenedor-plataformas .videoconferencias .texto h3{
+    font-size: 35px;
+}
+
+.main .transmision .contenedor .contenedor-plataformas .videoconferencias .iconos img {
+    vertical-align: top;
+	width: 50px;
+	margin: 10px;
+}
+
+.main .transmision .contenedor .contenedor-plataformas .videoconferencias .iconos img:hover {
+    opacity: 0.5;
+}
+
+/*Paginasweb*/
+.main .transmision .contenedor .contenedor-plataformas .paginas-web .iconos {
+    margin-bottom: 60px;
+}
+
+.main .transmision .contenedor .contenedor-plataformas .paginas-web .texto h3{
+    font-size: 35px;
+}
+
+.main .transmision .contenedor .contenedor-plataformas .paginas-web .iconos img {
+    vertical-align: top;
+	width: 50px;
+	margin: 10px;
+}
+
+.main .transmision .contenedor .contenedor-plataformas .paginas-web .iconos img:hover {
+    opacity: 0.5;
+}
+
+/*-------------CLIENTES ----------------*/
+
+.main .clientes {
+    background: #f2f2f2;
+    padding: 60px 0;
+}
+.main .clientes .contenedor {
+    overflow: hidden;
+}
+
+.main .clientes .contenedor .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 60px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+}
+
+.main .clientes .contenedor .contenedor-clientes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .clientes .contenedor .contenedor-clientes .cliente {
+    width: 23%;
+    margin-bottom: 40px;
+}
+
+.main .clientes .contenedor .contenedor-clientes .cliente .thumb {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.main .clientes .contenedor .contenedor-clientes .cliente .thumb img {
+    vertical-align: top;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.main .clientes .contenedor .contenedor-clientes .cliente .thumb img:hover{
+    opacity: 0.5;
+}
+
+.main .clientes .contenedor .contenedor-clientes .cliente .texto {
+    text-align: center;
+}
+
+.main .clientes .contenedor .contenedor-clientes .cliente .texto .nombre {
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/* --------------- LIVESSSSS -----------------*/
+.main .live .contenedor {
+    width: 100%;
+    margin-top: 100px;
+	padding: 20px 0;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.main .live .contenedor .contenedor-contenido {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.main .live .contenedor .contenedor-contenido .titulo {
+    margin-bottom: 20px;
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 60px;
+    font-weight: 600;
+    color: #e52832;
+}
+
+.main .live .contenedor .contenedor-contenido .texto{
+    margin: 80px 40px;
+} 
+
+.main .live .contenedor .contenedor-contenido .texto .contenido {
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.main .live .contenedor .contenedor-contenido .screenshot {
+    width: 50%;
+}
+
+/*-----------------Contacto -------------------*/
+footer {
+    background: #f2f2f2;
+}
+footer .contacto {
+    padding: 60px 0; }
+    footer .contacto .titulo {
+      font-size: 34px;
+      line-height: 34px;
+      margin-bottom: 60px;
+      font-weight: 300;
+      color: #e52832;
+      text-align: center; }
+    footer .contacto .formulario {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      footer .contacto .formulario input[type="text"],
+      footer .contacto .formulario input[type="email"],
+      footer .contacto .formulario textarea {
+        border: 2px solid #cecece;
+        border-radius: 5px;
+        padding: 15px 20px;
+        font-size: 20px;
+        color: #a4a4a4; }
+      footer .contacto .formulario input[type="text"],
+      footer .contacto .formulario input[type="email"] {
+        width: 49%;
+        margin-bottom: 15px; }
+      footer .contacto .formulario textarea {
+        width: 100%;
+        height: 100px;
+        min-width: 100%;
+        margin-bottom: 15px;
+        min-height: 100px;
+        max-height: 300px; }
+      footer .contacto .formulario .boton {
+        margin: auto;
+        background: #da3f24;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        padding: 15px 40px; }
+        footer .contacto .formulario .boton:hover {
+          background: #f35f3a; }
+
+.redes-sociales-footer {
+    background: #1e2b38;
+    padding: 60px 0;
+}
+.redes-sociales-footer .contenedor {
+      display: flex;
+      justify-content: center; }
+.redes-sociales-footer .contenedor a {
+        color: #fff;
+        text-align: center;
+        width: 100px;
+        font-size: 30px;
+        padding: 15px 0;
+        display: block;
+        margin: 0 20px;
+        border-radius: 3px; }
+.redes-sociales-footer .contenedor .facebook:hover {
+        background: #3b5998; }
+ .redes-sociales-footer .contenedor .instagram:hover {
+        background: #3f729b; }
